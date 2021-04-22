@@ -3,7 +3,7 @@
     "name": "NewProject",
     "slug": "NewProject",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -18,6 +18,9 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "useNextNotificationsApi": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
